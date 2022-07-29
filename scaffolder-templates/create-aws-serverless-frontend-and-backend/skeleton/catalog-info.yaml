@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Component, Template
 metadata:
   name: ${{values.component_id | dump}}
   description: ${{values.description | dump}}
