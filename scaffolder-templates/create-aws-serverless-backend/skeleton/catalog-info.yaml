@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{values.component_id | dump}}
+  name: create-aws-serverless-backend
   description: ${{values.description | dump}}
   annotations:
-    github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
+    github.com/project-slug: dhanu0001/SW-Templates
     backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   lifecycle: experimental
-  owner: ${{values.owner | dump}}
+  owner: user: dhanu0001
